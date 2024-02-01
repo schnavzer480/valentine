@@ -69,6 +69,8 @@ button {
     border: 2px solid var(--black);
     transition-duration: 0.4s;
     cursor: pointer;
+    z-index: 1;
+    
 }
 button:hover {
     background-color: var(--red);
