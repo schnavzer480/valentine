@@ -12,6 +12,7 @@
     font-family: 'Honk', system-ui;
     --pink: rgba(242, 199, 233, 0.816);
     --black: rgba(11, 10, 10, 0.496);
+    --red: rgba(234, 48, 48, 0.818);
 }
 
 nav, header, main, footer, section, figure {
@@ -61,6 +62,11 @@ button {
     padding: 15px;
     border-radius: 10px;
     border: 2px solid var(--black);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+button:hover {
+    background-color: var(--red);
 }
 
 /*FOOTER*/
