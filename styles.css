@@ -23,7 +23,7 @@ nav, header, main, footer, section, figure {
 .background-image{
     height: 100%;
     width: 100%;
-    background-image: url("schnazi.webp");
+    background-image: url("bgimg/schnazi.webp");
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
