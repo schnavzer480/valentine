@@ -63,8 +63,8 @@ h1 {
 button {
     font-family: 'Tangerine', cursive;
     background-color: var(--pink);
-    font-size: 6rem;
-    padding: 15px;
+    font-size: 5rem;
+    padding: 25px;
     border-radius: 10px;
     border: 2px solid var(--black);
     transition-duration: 0.4s;
