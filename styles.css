@@ -1,0 +1,14 @@
+™ {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+nav, header, main, footer, section, figure {
+    display: block;
+    margin: 0;
+}
