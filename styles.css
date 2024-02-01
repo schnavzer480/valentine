@@ -12,3 +12,13 @@ nav, header, main, footer, section, figure {
     display: block;
     margin: 0;
 }
+
+.background-image{
+    height: 100%;
+    width: 100%;
+    background-image: url("schnazi.webp");
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
