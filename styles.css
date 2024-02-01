@@ -1,4 +1,4 @@
-™ {
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -24,5 +24,14 @@ nav, header, main, footer, section, figure {
 }
 
 /*HEADER*/
+header {
+    border: 2px solid red;
+}
 /*CONTENT*/
+.content {
+    border: 2px solid blue;
+}
 /*FOOTER*/
+.footer {
+    border: 2px solid green;
+}
