@@ -101,5 +101,10 @@ button:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 1.9rem;
+}
+
+.lang img {
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px var(--red);
 }
