@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     // Change background-image, title, h1, and button texts for Indonesian flag
                     document.body.style.backgroundImage = "url('bgimg/indonesia.webp')";
                     document.title = "Indonesian Flag";
-                    document.querySelector("header h1").textContent = "Indonesian Flag";
+                    document.querySelector("header h1").textContent = "Maukah kau menjadi cintaku?";
                     document.querySelector("#nobounce").textContent = "Ya";
                     document.querySelector("#bouncing").textContent = "Tidak";
                     break;
