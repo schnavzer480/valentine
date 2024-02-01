@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -6,6 +8,8 @@
 
 :root {
     font-size: 62.5%;
+    font-family: 'Honk', system-ui;
+    --pink: rgba(242, 199, 233, 0.816);
 }
 
 nav, header, main, footer, section, figure {
@@ -23,15 +27,34 @@ nav, header, main, footer, section, figure {
     background-size: cover;
 }
 
+
 /*HEADER*/
-header {
+.header {
     border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+h1 {
+    background-color: var(--pink);
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 3rem;
+    text-align: center;
+    width: 90%;
 }
 /*CONTENT*/
 .content {
     border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    padding: 150px
 }
+button {}
+
 /*FOOTER*/
 .footer {
     border: 2px solid green;
+    display: flex;
+    justify-content: center;
 }
