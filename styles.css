@@ -69,12 +69,15 @@ button {
     border: 2px solid var(--black);
     transition-duration: 0.4s;
     cursor: pointer;
-    z-index: 1;
-    
+    z-index: 1;    
 }
 button:hover {
     background-color: var(--red);
 }
+button:active {
+    transform:scale(5.5);
+}
+
 
 /*FOOTER*/
 .footer {
@@ -107,4 +110,8 @@ button:hover {
 .lang img {
     border-radius: 5px;
     box-shadow: 4px 4px 10px var(--red);
+}
+
+.lang img:active {
+    transform:scale(1.5);
 }
