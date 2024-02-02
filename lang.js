@@ -15,8 +15,11 @@ document.addEventListener("DOMContentLoaded", function() {
         var url;
 
         switch (currentFlag) {
-            case "Brittish flag":
+            case "Swedish flag":
                 url = "https://www.filmstaden.se/";
+                break;
+            case "Brittish flag":
+                url = "https://www.picturehouses.com/";
                 break;
             case "French flag":
                 url = "https://www.legrandrex.com/";
@@ -52,9 +55,17 @@ document.addEventListener("DOMContentLoaded", function() {
             const imgAlt = this.getAttribute("alt");
 
             switch (imgAlt) {
-                case "Brittish flag":
+                case "Swedish flag":
                     // Change background-image, title, h1, and button texts for British flag
                     document.body.style.backgroundImage = "url('bgimg/schnazi.webp')";
+                    document.title = "Vill du gå på Alla hjärtans dag-dejt med mig?";
+                    document.querySelector("header h1").textContent = "Vill du gå på Alla hjärtans dag-dejt med mig?";
+                    document.querySelector("#nobounce").textContent = "Ja";
+                    document.querySelector("#bouncing").textContent = "Nej";
+                    break;
+                case "Brittish flag":
+                    // Change background-image, title, h1, and button texts for British flag
+                    document.body.style.backgroundImage = "url('bgimg/uk.webp')";
                     document.title = "Do you want to be my Valentine?";
                     document.querySelector("header h1").textContent = "Do you want to be my Valentine?";
                     document.querySelector("#nobounce").textContent = "Yes";
