@@ -21,11 +21,20 @@ document.addEventListener("DOMContentLoaded", function() {
             case "Brittish flag":
                 url = "https://www.picturehouses.com/";
                 break;
+                case "German flag":
+                url = "https://www.cinestar.de/";
+                break;
             case "French flag":
                 url = "https://www.legrandrex.com/";
                 break;
             case "Spanish flag":
                 url = "https://www.cinesa.es//";
+                break;
+                case "Italian flag":
+                url = "https://www.ucicinemas.it/";
+                break;
+                case "Ukrainian flag":
+                url = "https://multiplex.ua/";
                 break;
             case "Thai flag":
                 url = "https://www.majorcineplex.com/home";
@@ -71,6 +80,14 @@ document.addEventListener("DOMContentLoaded", function() {
                     document.querySelector("#nobounce").textContent = "Yes";
                     document.querySelector("#bouncing").textContent = "No";
                     break;
+                    case "German flag":
+                    // Change background-image, title, h1, and button texts for British flag
+                    document.body.style.backgroundImage = "url('bgimg/germany.webp')";
+                    document.title = "Möchtest du mein Valentin sein?";
+                    document.querySelector("header h1").textContent = "Möchtest du mein Valentin sein?";
+                    document.querySelector("#nobounce").textContent = "Ja";
+                    document.querySelector("#bouncing").textContent = "Nein";
+                    break;
                 case "French flag":
                     // Change background-image, title, h1, and button texts for French flag
                     document.body.style.backgroundImage = "url('bgimg/france.webp')";
@@ -86,6 +103,22 @@ document.addEventListener("DOMContentLoaded", function() {
                     document.querySelector("header h1").textContent = "Quieres ser mi San Valentin?";
                     document.querySelector("#nobounce").textContent = "Sí";
                     document.querySelector("#bouncing").textContent = "No";
+                    break;
+                    case "Italian flag":
+                    // Change background-image, title, h1, and button texts for Spanish flag
+                    document.body.style.backgroundImage = "url('bgimg/italy.webp')";
+                    document.title = "Vuoi essere il mio valentino?";
+                    document.querySelector("header h1").textContent = "Vuoi essere il mio valentino?";
+                    document.querySelector("#nobounce").textContent = "Sì";
+                    document.querySelector("#bouncing").textContent = "No";
+                    break;
+                    case "Ukrainian flag":
+                    // Change background-image, title, h1, and button texts for Spanish flag
+                    document.body.style.backgroundImage = "url('bgimg/ukraine.webp')";
+                    document.title = "Чи хотіли б ви піти на побачення зі мною?";
+                    document.querySelector("header h1").textContent = "Чи хотіли б ви піти на побачення зі мною?";
+                    document.querySelector("#nobounce").textContent = "Так";
+                    document.querySelector("#bouncing").textContent = "Немає";
                     break;
                 case "Thai flag":
                     // Change background-image, title, h1, and button texts for Thai flag
