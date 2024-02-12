@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var otherButton = document.querySelector(".content button:not(#bouncing)");
 
     otherButton.addEventListener("click", function() {
-        window.location.href = "https://www.filmstaden.se/"; // Replace with your desired URL
+        window.location.href = "https://www.picturehouses.com/"; // Replace with your desired URL
     });
 
     // Event listener for the #nobounce button
@@ -15,11 +15,11 @@ document.addEventListener("DOMContentLoaded", function() {
         var url;
 
         switch (currentFlag) {
-            case "Swedish flag":
-                url = "https://www.filmstaden.se/";
-                break;
             case "Brittish flag":
                 url = "https://www.picturehouses.com/";
+                break;
+            case "Swedish flag":
+                url = "https://www.filmstaden.se/";
                 break;
                 case "German flag":
                 url = "https://www.cinestar.de/";
@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 break;
             // Add cases for other flags as needed
             default:
-                url = "https://www.filmstaden.se/";
+                url = "https://www.picturehouses.com/";
                 break;
         }
 
@@ -64,14 +64,6 @@ document.addEventListener("DOMContentLoaded", function() {
             const imgAlt = this.getAttribute("alt");
 
             switch (imgAlt) {
-                case "Swedish flag":
-                    // Change background-image, title, h1, and button texts for British flag
-                    document.body.style.backgroundImage = "url('bgimg/schnazi.webp')";
-                    document.title = "Vill du gå på Alla hjärtans dag-dejt med mig?";
-                    document.querySelector("header h1").textContent = "Vill du gå på Alla hjärtans dag-dejt med mig?";
-                    document.querySelector("#nobounce").textContent = "Ja";
-                    document.querySelector("#bouncing").textContent = "Nej";
-                    break;
                 case "Brittish flag":
                     // Change background-image, title, h1, and button texts for British flag
                     document.body.style.backgroundImage = "url('bgimg/uk.webp')";
@@ -79,6 +71,14 @@ document.addEventListener("DOMContentLoaded", function() {
                     document.querySelector("header h1").textContent = "Do you want to be my Valentine?";
                     document.querySelector("#nobounce").textContent = "Yes";
                     document.querySelector("#bouncing").textContent = "No";
+                    break;
+                case "Swedish flag":
+                    // Change background-image, title, h1, and button texts for British flag
+                    document.body.style.backgroundImage = "url('bgimg/schnazi.webp')";
+                    document.title = "Vill du gå på Alla hjärtans dag-dejt med mig?";
+                    document.querySelector("header h1").textContent = "Vill du gå på Alla hjärtans dag-dejt med mig?";
+                    document.querySelector("#nobounce").textContent = "Ja";
+                    document.querySelector("#bouncing").textContent = "Nej";
                     break;
                     case "German flag":
                     // Change background-image, title, h1, and button texts for British flag
