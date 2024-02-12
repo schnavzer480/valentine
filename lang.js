@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var otherButton = document.querySelector(".content button:not(#bouncing)");
 
     otherButton.addEventListener("click", function() {
-        window.location.href = "https://www.picturehouses.com/"; // Replace with your desired URL
+        window.location.href = "https://www.picturehouses.com/"; // first url
     });
 
     // Event listener for the #nobounce button
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function() {
             case "Indonesian flag":
                 url = "https://21cineplex.com/";
                 break;
-            // Add cases for other flags as needed
+            // uk flag as else option
             default:
                 url = "https://www.picturehouses.com/";
                 break;
