@@ -63,13 +63,14 @@ h1 {
 button {
     font-family: 'Tangerine', cursive;
     background-color: var(--pink);
-    font-size: 5rem;
+    font-size: 4rem;
     padding: 25px;
     border-radius: 10px;
     border: 2px solid var(--black);
     transition-duration: 0.4s;
     cursor: pointer;
-    z-index: 1;    
+    z-index: 1;   
+    width: 150px;
 }
 button:hover {
     background-color: var(--red);
